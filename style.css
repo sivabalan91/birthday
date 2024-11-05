@@ -14,7 +14,7 @@
     overflow: hidden;
   }
   .bulbs {
-    width: 90vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,10 +50,18 @@
   }
 
   .btn {
+    background: linear-gradient(to right, rgb(132, 255, 255),white);
     position: absolute;
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
+    border: 2px solid #007777;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #007777;
+    font-weight: bold;
+    font-size: 14px;
   }
 
   @keyframes changeBulb {
@@ -127,7 +135,7 @@
     }
   }
   .balloon1 {
-    height: 50vh;
+    height: 65vh;
     object-fit: cover;
     width: 33vw;
     position: absolute;
@@ -136,7 +144,7 @@
     animation: first 3s ease-in-out;
   }
   .balloon2 {
-    height: 50vh;
+    height: 65vh;
     object-fit: cover;
     width: 33vw;
     position: absolute;
@@ -187,7 +195,7 @@
     width: 50vw;
     position: absolute;
     top: 0;
-    left: 10;
+    left: 15;
     transform: translateX(-10%);
     z-index: 900;
   }
@@ -195,7 +203,7 @@
     width: 50vw;
     position: absolute;
     top: 0;
-    right: 10;
+    right: 15;
     transform: translateX(90%);
     z-index: 900;
   }
@@ -338,13 +346,12 @@
     margin-left: 10px;
   }
   .name {
-    width: 80vw;
+    width: 90vw;
     display: flex;
-    margin-inline: auto;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 170px;
+    top: 200px;
   }
 
   @keyframes join2{
