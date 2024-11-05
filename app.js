@@ -3,7 +3,7 @@
  let cakebtn=document.querySelector('.cakebtn')
  let audio = document.querySelector('#bday')
  let audio1 = document.querySelector('#sister')
- let playb = document.querySelector('.play')
+ let playb = document.querySelector('.playbtn')
  let pauseb = document.querySelector('.pause')
 
 function show(){
