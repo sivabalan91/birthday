@@ -269,36 +269,25 @@
   .s {
     animation: join 5s linear alternate;
   }
-  .i {
+  .a1 {
     animation: join1 5s linear;
   }
-  .v {
+  .n1 {
     animation: join2 5s linear;
   }
-  .a {
+  .j {
     animation: join3 5s linear;
   }
-  .t {
+  .a2 {
     animation: join4 5s linear;
   }
-  .h {
+  .n2 {
     animation: join5 5s linear;
   }
-  .a1 {
+  .a3 {
     animation: join6 5s linear;
   }
-  .r {
-    animation: join7 5s linear;
-  }
-  .a2 {
-    animation: join8 5s linear;
-  }
-  .n {
-    animation: join9 5s linear;
-  }
-  .i1 {
-    animation: join10 5s linear;
-  }
+
   @keyframes join1{
     0%{
        filter: blur(25px);
@@ -449,7 +438,7 @@
         transform: translateX(0) rotate(0deg);
     }
 }
-@keyframes join7{
+/* @keyframes join7{
     0%{
         filter: blur(25px);
         transform: translate(800px,600px) rotate(120deg);
@@ -524,7 +513,7 @@
     100%{
         transform: translateX(0) rotate(0deg);
     }
-}
+} */
 
   .par {
     text-align: center;
